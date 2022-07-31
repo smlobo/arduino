@@ -48,7 +48,7 @@ void loop() {
   myGLCD.setBackColor(255, 0, 0);
   myGLCD.print("Merry", CENTER, 30);
   myGLCD.print("Christmas,", CENTER, 130);
-  myGLCD.print("Foo!!!", CENTER, 230);
+  myGLCD.print("Ryan!!!", CENTER, 230);
 
   // Delay
   delay(5000);
