@@ -34,7 +34,28 @@ void loop() {
   myGLCD.setColor(255, 255, 255);
   //myGLCD.print("Ryan Lobo", CENTER, 160);
   //myGLCD.print("012", CENTER, 110);
-  myGLCD.print("Ryan Lobo", CENTER, 110);
 
-  delay(10000);
+  // Slow print
+  myGLCD.print("A", CENTER, 120);
+  delay(500);
+  myGLCD.print("Am", CENTER, 120);
+  delay(500);
+  myGLCD.print("Ame", CENTER, 120);
+  delay(500);
+  myGLCD.print("Amel", CENTER, 120);
+  delay(500);
+  myGLCD.print("Ameli", CENTER, 120);
+  delay(500);
+  myGLCD.print("Amelia", CENTER, 120);
+  delay(500);
+  myGLCD.print("Amelia L", CENTER, 120);
+  delay(500);
+  myGLCD.print("Amelia Lo", CENTER, 120);
+  delay(500);
+  myGLCD.print("Amelia Lob", CENTER, 120);
+  delay(500);
+  myGLCD.print("Amelia Lobo", CENTER, 120);
+  delay(500);
+
+  delay(5000);
 }
